@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ui:ContentPageBase xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ui="clr-namespace:MoneyManagerApp.Views.Base;assembly=MoneyManagerApp"
+             xmlns:vms="clr-namespace:MoneyManagerApp.ViewModels"
+             x:TypeArguments="vms:EditCaseViewModel"
+             x:Class="MoneyManagerApp.Views.EditCaseView">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Tên" />
+            <Entry x:Name="TitleEntry" Placeholder="Nhập tên..." />
+            <Label Text="Diễn giải" />
+            <Entry x:Name="DescriptionEntry" Placeholder="Nhập tên..." />
+            <Label Text="Địa điểm" />
+            <Entry x:Name="LocationEntry" Placeholder="Nhập tên..." />
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button x:Name="SaveButton" Text="Lưu" />
+                <Button x:Name="CancelButton" Text="Hủy" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ui:ContentPageBase>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ui:ContentPageBase xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ui="clr-namespace:MoneyManagerApp.Views.Base;assembly=MoneyManagerApp"
+             xmlns:vms="clr-namespace:MoneyManagerApp.ViewModels"
+             x:TypeArguments="vms:CaseViewModel"
+             x:Class="MoneyManagerApp.Views.CaseView">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label x:Name="LocationLabel" VerticalOptions="Start" HorizontalOptions="Center" />
+                <Label x:Name="TimeLabel" VerticalOptions="Start" HorizontalOptions="Center" />
+            </StackLayout>
+            <ListView x:Name="ExpenseListView">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Title}" Detail="{Binding Amount}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ui:ContentPageBase>

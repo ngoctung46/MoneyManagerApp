@@ -1,0 +1,14 @@
+C:\Users\Tung\source\repos\MoneyManagerApp\MoneyManagerApp\MoneyManagerApp\bin\Debug\netstandard2.0\MoneyManagerApp.deps.json
+C:\Users\Tung\source\repos\MoneyManagerApp\MoneyManagerApp\MoneyManagerApp\bin\Debug\netstandard2.0\MoneyManagerApp.dll
+C:\Users\Tung\source\repos\MoneyManagerApp\MoneyManagerApp\MoneyManagerApp\bin\Debug\netstandard2.0\MoneyManagerApp.pdb
+C:\Users\Tung\source\repos\MoneyManagerApp\MoneyManagerApp\MoneyManagerApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Tung\source\repos\MoneyManagerApp\MoneyManagerApp\MoneyManagerApp\obj\Debug\netstandard2.0\Views\CaseView.xaml.g.cs
+C:\Users\Tung\source\repos\MoneyManagerApp\MoneyManagerApp\MoneyManagerApp\obj\Debug\netstandard2.0\Views\MainView.xaml.g.cs
+C:\Users\Tung\source\repos\MoneyManagerApp\MoneyManagerApp\MoneyManagerApp\obj\Debug\netstandard2.0\MoneyManagerApp.csproj.CoreCompileInputs.cache
+C:\Users\Tung\source\repos\MoneyManagerApp\MoneyManagerApp\MoneyManagerApp\obj\Debug\netstandard2.0\MoneyManagerApp.AssemblyInfoInputs.cache
+C:\Users\Tung\source\repos\MoneyManagerApp\MoneyManagerApp\MoneyManagerApp\obj\Debug\netstandard2.0\MoneyManagerApp.AssemblyInfo.cs
+C:\Users\Tung\source\repos\MoneyManagerApp\MoneyManagerApp\MoneyManagerApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Tung\source\repos\MoneyManagerApp\MoneyManagerApp\MoneyManagerApp\obj\Debug\netstandard2.0\MoneyManagerApp.dll
+C:\Users\Tung\source\repos\MoneyManagerApp\MoneyManagerApp\MoneyManagerApp\obj\Debug\netstandard2.0\MoneyManagerApp.pdb
+C:\Users\Tung\source\repos\MoneyManagerApp\MoneyManagerApp\MoneyManagerApp\obj\Debug\netstandard2.0\MoneyManagerApp.csprojAssemblyReference.cache
+C:\Users\Tung\source\repos\MoneyManagerApp\MoneyManagerApp\MoneyManagerApp\obj\Debug\netstandard2.0\Views\EditCaseView.xaml.g.cs

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyManagerApp.Android", "MoneyManagerApp\MoneyManagerApp.Android\MoneyManagerApp.Android.csproj", "{91653DE6-37FA-4446-90BB-9DCD11D4831F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyManagerApp", "MoneyManagerApp\MoneyManagerApp\MoneyManagerApp.csproj", "{F74974E5-B835-40C8-BE42-7719CFB2AAED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91653DE6-37FA-4446-90BB-9DCD11D4831F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91653DE6-37FA-4446-90BB-9DCD11D4831F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91653DE6-37FA-4446-90BB-9DCD11D4831F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{91653DE6-37FA-4446-90BB-9DCD11D4831F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91653DE6-37FA-4446-90BB-9DCD11D4831F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91653DE6-37FA-4446-90BB-9DCD11D4831F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F74974E5-B835-40C8-BE42-7719CFB2AAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74974E5-B835-40C8-BE42-7719CFB2AAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F74974E5-B835-40C8-BE42-7719CFB2AAED}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F74974E5-B835-40C8-BE42-7719CFB2AAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F74974E5-B835-40C8-BE42-7719CFB2AAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F74974E5-B835-40C8-BE42-7719CFB2AAED}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A542E750-299F-469B-97A2-032A2D79452F}
+	EndGlobalSection
+EndGlobal

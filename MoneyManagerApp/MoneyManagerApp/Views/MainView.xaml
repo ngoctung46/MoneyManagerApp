@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ui:ContentPageBase xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ui="clr-namespace:MoneyManagerApp.Views.Base;assembly=MoneyManagerApp"
+             xmlns:vms="clr-namespace:MoneyManagerApp.ViewModels"
+             x:TypeArguments="vms:MainViewModel"
+             x:Class="MoneyManagerApp.Views.MainView">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button x:Name="AddButton" Text="Add" Grid.Row="0" Grid.Column="1" />
+            <ListView x:Name="CaseListView" Grid.Row="1" Grid.ColumnSpan="2" IsVisible="False">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Title}" Detail="{Binding Location}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <ActivityIndicator x:Name="LoadingIndicator" Color="Blue" IsRunning="True"
+                               Grid.Row="1" Grid.ColumnSpan="2"
+                               HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="CenterAndExpand" />
+        </Grid>
+    </ContentPage.Content>
+</ui:ContentPageBase>
